@@ -4,7 +4,7 @@ const app = express();
 
 const bodyParser = require('body-parser');
 
-let electProducts = require('./products.js'); 
+let electProducts = require('./models/products.js'); 
 
 app.use(express.json());
 
